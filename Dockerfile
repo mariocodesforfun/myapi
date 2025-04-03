@@ -15,7 +15,7 @@ COPY . .
 ENV FLASK_APP=run.py
 
 # Expose the port (consistent with the app)
-EXPOSE 5000
+EXPOSE 8080
 
 # Use Gunicorn for production
-CMD ["gunicorn", "--bind", "0.0.0.0:5000", "run:app"]
+CMD ["gunicorn", "--bind", "0.0.0.0:8080", "run:app"]
