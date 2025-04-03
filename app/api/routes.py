@@ -9,7 +9,7 @@ def health():
 
     return jsonify(message), 200
 
-@example_blueprint.route("/", methods=["GET"])
+@main_blueprint.route("/", methods=["GET"])
 def main():
 
     message = {"message": "Nothing to show here, but we're getting there"}
