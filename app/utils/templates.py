@@ -1,0 +1,1 @@
+# Template rendering logic (Jinja2 for local templates)
