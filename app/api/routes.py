@@ -5,7 +5,7 @@ from app.api import example_blueprint, main_blueprint
 @example_blueprint.route("/health", methods=["GET"])
 def health():
 
-    message = {"message": "API is running, let's start the implementation."}
+    message = {"message": "API is running, let's start coding."}
 
     return jsonify(message), 200
 
